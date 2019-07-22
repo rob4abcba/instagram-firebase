@@ -69,7 +69,7 @@ export default class ProfileScreen extends React.Component {
   render() {
     return (
       <View style={{ alignItems: 'center', paddingTop: 50 }}>
-        <Image style={styles.picture} source={require('assets/zoe.jpg')} />
+        {/* <Image style={styles.picture} source={require('assets/icon.png')} /> */}
 
         <Text style={styles.name}>{this.state.name}</Text>
 

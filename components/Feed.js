@@ -69,9 +69,12 @@ const styles = StyleSheet.create({
     marginTop: Constants.statusBarHeight,
   },
   list: {
+    // alignItems will center every child horizontally
+    // justifyContent centers every child vertically
     justifyContent: 'center',
   },
   item: {
+    // flex 1/2 makes view half the size of the screen
     flex: 1/2,
     margin: 2,
     marginBottom: 20,
